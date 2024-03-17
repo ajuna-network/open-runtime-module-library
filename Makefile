@@ -29,7 +29,7 @@ format:
 # Standalone development workflow targets
 # Running those inside existing workspace will break due to Cargo unable to support nested worksapce
 
-Cargo.toml: Cargo.dev.toml
+Cargo.toml: Cargo.toml
 	cp Cargo.dev.toml Cargo.toml
 
 dev-format: Cargo.toml
